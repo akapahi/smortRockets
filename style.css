@@ -1,14 +1,8 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-}
-
 .column {
 	float: left;
 	width: 50%;
-	text-align: center;
 }
 
+.column h1{
+	text-align: center;
+}
