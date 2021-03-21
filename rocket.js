@@ -92,7 +92,8 @@ function Rocket(dna) {
     translate(this.pos.x, this.pos.y);
     //rotatates to the angle the rocket is pointing
     rotate(this.vel.heading()-30);
-    //creates a rectangle shape for rocket
+    //creates a triangle shape for rocket
+    fill(254, 121, 61);
     triangle(0, 0, 0, 20, 10, 30);
     triangle(0, 0, 0, 20, -10, 30);
     pop();
