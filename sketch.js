@@ -53,7 +53,7 @@ function mouseReleased() {
 }
 
 function draw() {
-  background(0);
+  background(251, 198, 208);
   population.run(obstacles);
   // Displays count to window
   //lifeP.html(count);
