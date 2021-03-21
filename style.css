@@ -1,11 +1,25 @@
-body{
-	background-color: #95bddc	
-}
-.column {
-	float: left;
-	width: 50%;
-}
+	.column {
+ 		 float: left;
+ 		 width: 50%;
+		 color: #fb4c1f;
+		 
+		}
+	.column h1{
+		color: #fb4c1f;
+		 text-align: center;
+		}
 
-.column h1{
-	text-align: center;
-}
+	.column h3{
+		margin-top: 60px;
+	}
+
+	body{
+		background-color: #c2d1e5;
+	}
+	.content{
+		margin: 10px;
+	}
+
+	.content p{
+		text-align: justify;
+	}
