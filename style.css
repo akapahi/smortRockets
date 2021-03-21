@@ -6,8 +6,11 @@ canvas {
   display: block;
 }
 
-	.column {
- 		 float: left;
- 		 width: 50%;
-		 text-align: center;
-		}
+.column {
+	float: left;
+	width: 50%;
+}
+
+.column h1{
+	text-align: center;
+}
