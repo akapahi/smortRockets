@@ -18,7 +18,7 @@ function Population() {
 
   this.acceptReject = function() {
     while (true) {
-      var rand = random();
+      var rand = random(0.5,1);
       var pick = random(this.rockets);
       if (rand < pick.fitness) return pick;
     }
